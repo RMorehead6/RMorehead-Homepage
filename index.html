@@ -63,14 +63,32 @@
         -->
 
         <!-- Your Image Here -->
-        <img src="images/littlelink.svg" class="avatar" srcset="images/littlelink.svg 2x" alt="">
+        <img src="images/profile.png" class="avatar" alt="">
 
         <!-- Title -->
-        <h1 role="heading">LITTLE LINK</h1>
+        <h1 role="heading">Ryan Morehead</h1>
 
         <!-- Short Bio -->
-        <p>An open source DIY Linktree alternative.</p>
+        <p id=myQuote></p>
 
+          
+        <script>
+            var myQuotes = new Array();
+            myQuotes[0] = "I do intelligent things occasionally";
+            myQuotes[1] = "This text will self destruct when you press F5";
+            myQuotes[2] = "Sir, this is a Wendy's";
+            myQuotes[3] = "Woah, just take it easy man";
+            myQuotes[4] = "Who you callin' pin-head?";
+            myQuotes[5] = "We have technology!";
+            myQuotes[6] = "Krusty Krab &#61; Unfair";
+            myQuotes[7] = "Ramirez, get to the roof of Nate's Sports Bar!";
+            myQuotes[8] = "Would you like to trade your MEDICHAM for my HAUNTER?";
+            myQuotes[9] = "I heard the renaissance men are coming to town";
+            myQuotes[10] = "The numbers Mason, what do they mean?";
+
+            var myRandom = Math.floor(Math.random()*myQuotes.length);
+            document.getElementById('myQuote').innerHTML= myQuotes[myRandom];
+        </script>
         <!--
 
           ## Breaking down <a> attributes:
@@ -242,7 +260,7 @@
         <a class="button button-line" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/line.svg" alt="Line Logo">Line</a><br>
 -->
         <!-- LinkedIn -->
-        <a class="button button-linked" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a><br>
+        <a class="button button-linked" href="https://www.linkedin.com/in/ryan-morehead-5356b4207/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a><br>
 
         <!-- Mailchimp 
         <a class="button button-mailchimp" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/mailchimp.svg" alt="Mailchimp Logo">Mailchimp</a><br>
@@ -329,7 +347,7 @@
         <a class="button button-stack-overflow" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/stack-overflow.svg" alt="Stack Overflow Logo">Stack Overflow</a><br>
 -->
         <!-- Steam -->
-        <a class="button button-steam" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/steam.svg" alt="Steam Logo">Steam</a><br>
+        <a class="button button-steam" href="https://steamcommunity.com/id/MisterNegativity" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/steam.svg" alt="Steam Logo">Steam</a><br>
 
         <!-- Steam Alt 
         <a class="button button-steam-alt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/steam.svg" alt="Steam Logo">Steam</a><br>
@@ -353,7 +371,7 @@
         <a class="button button-tiktok" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tiktok.svg" alt="TikTok Logo">TikTok</a><br>
 -->
         <!-- Trakt -->
-        <a class="button button-trakt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/trakt.svg" alt="Trakt Logo">Trakt</a><br>
+        <a class="button button-trakt" href="https://trakt.tv/users/mrnegativity" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/trakt.svg" alt="Trakt Logo">Trakt</a><br>
 
         <!-- Trello 
         <a class="button button-trello" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/trello.svg" alt="Trello Logo">Trello</a><br>
@@ -362,7 +380,7 @@
         <a class="button button-tumb" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tumblr.svg" alt="Tumblr Logo">Tumblr</a><br>
 -->
         <!-- Twitch -->
-        <a class="button button-twitch" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a><br>
+        <a class="button button-twitch" href="https://www.twitch.tv/misterrnegativity" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a><br>
 
         <!-- Unsplash 
         <a class="button button-unsplash" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/unsplash.svg" alt="Unsplash Logo">Unsplash</a><br>
@@ -392,13 +410,13 @@
         <a class="button button-wordpress" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/wordpress.svg" alt="WordPress Logo">WordPress</a><br>
 -->
         <!-- X -->
-        <a class="button button-x" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Follow on X</a><br>
+        <a class="button button-x" href="https://x.com/RMorehead_6" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Follow on X</a><br>
 
         <!-- Xing 
         <a class="button button-xing" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/xing.svg" alt="Xing Logo">Xing</a><br>
 -->
         <!-- YouTube -->
-        <a class="button button-yt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a><br>        
+        <a class="button button-yt" href="https://www.youtube.com/channel/UCppeYrqmaMcqs0viTZUTcCg" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a><br>        
 
         <!-- YouTube Music 
         <a class="button button-yt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/youtube-music.svg" alt="YouTube Music Logo">Listen on YouTube Music</a><br>
@@ -422,8 +440,7 @@
         <a class="button button-default" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-computer.svg" alt="Computer Icon">Homelab Setup</a><br>
 -->
         <!-- Generic Email -->
-        <a class="button button-default" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email</a><br>
--->
+        <a class="button button-default" href="mailto:ryanmorehead6@gmail.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email</a><br>
         <!-- Generic Email Alt 
         <a class="button button-default" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email-alt.svg" alt="Email Icon">Email Us</a><br>
 -->
@@ -461,7 +478,7 @@
             This also includes a link to the LittleLink repository to make forking LittleLink easier.
             You can edit or remove anything here to make your own footer.
         -->
-        <p><a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
+        <p>2024 - Ryan Morehead | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
 
       </div>
     </div>
